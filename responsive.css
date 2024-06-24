@@ -1,0 +1,45 @@
+@media screen and (max-width : 768px){
+  header{
+    height: 160vh;
+  }
+  .nav-menu{
+    padding-left: 20px;
+  }
+  .see-more{
+    width: 100%;
+  }
+  .image-style{
+    margin-left: 20px;
+    text-align: justify;
+  }
+  #service-datails{
+    height: 1000vh;
+  }
+  .btn-style{
+    width: fit-content;
+  }
+  .service-title{
+    padding: 50px;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+  }
+  .image-style-2{
+    width: 300px;
+    padding-top: 60px;
+   
+  }
+  .See-all-videos-btn{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ #footer{
+  background-color: #028065;
+ }
+}
+@media screen and ( max-width:992px) {
+  
+}

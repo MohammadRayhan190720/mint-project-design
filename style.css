@@ -1,0 +1,334 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  /* padding: 50px; */
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+/* Header section Start Hare */
+header{
+  background-color:rgb(8, 118, 96);
+  height: 120vh;
+}
+.nav-link{
+  color: rgb(113, 208, 167);
+  font-weight: 800;
+}
+
+.nav-link:hover{
+  text-decoration:overline;
+}
+.nav-menu{
+  padding-left: 200px;
+}
+.btn{
+  background-color: rgb(198, 247, 234);
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  #demo{
+    background-color: #028065;
+    
+  }
+#banner-id{
+  padding-top: 200px;
+}
+.banner-header{
+  text-align: center;
+  color: rgb(131, 222, 178);
+}
+.banner-header h2{
+  font-weight: 800;
+  font-size: 75px;
+}
+.banner-header h3{
+  font-weight: 400;
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  margin-top: 20px;
+}
+.banner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+
+/* Header section ends Hare */
+/* export more section start hare */
+
+#Expect-more{
+  height: 100vh;
+  margin-top: 100px;
+  background-color:#FFFFFF;
+}
+.Style-1{
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 50px;
+}
+.pera-style{
+  margin-top: 20px;
+  font-size: 18px;
+}
+.see-more{
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(140, 234, 214);
+  width: fit-content;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: .4s;
+  text-align: center;
+}
+.see-more:hover{
+  transform: scale(1.1);
+}
+
+.next-icon{
+  background-color: rgb(140, 234, 214);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: -10px;
+
+}
+.icon-style{
+  padding-top: 15px;
+  size: 50px;
+}
+.image-style{
+  width: 400px;
+  margin-left: 100px;
+}
+
+/* export more section ends hare */
+/* service datails section start hare */
+#service-datails{
+  background-color: #83DEB2;
+  height: 530vh;
+  border-radius: 15%;
+  /* border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%; */
+  
+}
+.service-title{
+  padding: 200px;
+  width: 100%;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+
+}
+.image-style-1{
+  width: 200px;
+}
+.row-style{
+  text-align: center;
+}
+.service-title-style{
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* our clients section start hare */
+#our-clients{
+  text-align: center;
+}
+.service-title-style1{
+  padding: 100px;
+  width: 100%;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+}
+.image-style-2{
+  width: 350px;
+  text-align: center;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.image-style-2:hover{
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.btn-style{
+  text-align: center;
+  transition: 0.4;
+}
+
+
+
+/* our clients section ends hare */
+#our-growth{
+  margin-top: 50px;
+}
+.pera-style-1{
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+  font-size: 20px;
+  width: 100%;
+
+
+}
+.Learn-more-btn{
+  text-align: center;
+}
+
+
+/* service datails section ends hare */
+/* what-we-do section start hare */
+#what-we-do{
+  margin-top: 80px;
+  height: 100vh;
+}
+#what-we-do p{
+  color: #1A8A72;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.service-title-style2{
+  width: 100%;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+}
+
+/* what-we-do section ends hare */
+/* inside minds section start hare */
+#inside-mind{
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 100px;
+}
+#inside-mind h3{
+  margin-top: 80px;
+}
+.image-style-3{
+  width: 100%;
+  border-radius: 10px;
+}
+.image-style-3:hover{
+  opacity: 0.5;
+}
+
+
+
+/* inside minds section ends hare */
+/* contact us section start hare */
+#contact-us{
+  background-color: #028065;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  height: 150vh;
+  margin-top: 100px;
+}
+#contact-us h2{
+    font-weight: 800;
+    font-size: 75px;
+    text-align: center;
+  padding-top: 150px;
+  color: rgb(131, 222, 178);
+}
+#contact-us h3{
+
+    font-weight: 400;
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    margin-top: 20px;
+    color: rgb(131, 222, 178);
+    text-align: center;
+
+  
+}
+.btn-style1{
+  padding: 10px;
+  border-radius: 15px;
+}
+.hr-role{
+  padding-left: 100px;
+  width: 90%;
+  color: #FFFFFF;
+  padding-top
+  : 50px;
+
+}
+
+
+
+/* contact us section ends hare */
+/* footer section start hare */
+#footer{
+  padding-left: 100px;
+  padding-top: 60px;
+}
+.footer-design{
+  margin-top: 50px;
+}
+
+.social-container{
+  margin-top: 30px;
+}
+.social-link{
+  padding: 10px;
+  
+}
+.btn{
+  padding: 10px;
+}
+.copyright p{
+  margin-top: 100px;
+  color: rgb(131, 222, 178);
+  
+}
+.tel-number{
+  display: flex;
+  color: rgb(131, 222, 178); 
+  gap: 20px;
+}
+.g-mail-address{
+  display: flex;
+  color: rgb(131, 222, 178);
+  gap: 20px;
+}
+
+
+
+
+/* footer section ends hare */
